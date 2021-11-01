@@ -1,0 +1,161 @@
+*{
+   scroll-behavior: smooth;
+}
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header{
+   display: inline;
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: grey;
+}
+nav a:hover {
+   font-weight: bold;
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+nav li a h2{
+   display: inline;
+}
+nav {
+   background-color: white;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.nav-left{
+   float: right;
+}
+
+.home{
+   background-color: whitesmoke;
+   padding: 50px;
+}
+.model{
+   margin-top: 20px;
+}
+.data{
+   width: 30%;
+}
+.nat{
+   float: right;
+   margin-top: 40px;
+}
+.nat h1{
+   text-align: right;
+   font-size: 40px;
+}
+.nat p{
+   text-align: right;
+}
+button{
+   background-color: orange;
+   color: white;
+   width: 150px;
+   height: 40px;
+   border: 0;
+   border-radius: 20px;
+   font-size: 20px;
+   float: right;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   font-weight: bold;
+}
+button:hover{
+   box-shadow: 0 4px 8px 0 rgba(4, 149, 245, 0.979);
+}
+
+#pilihan{
+   background-color: #15FA83;
+   padding: 100px;
+   color: white;
+   font-weight: bold;
+}
+.pilihan{
+   display: flex;
+   flex-direction: row;
+}
+.pilihan h2{
+   text-align: center;
+}
+.pilihan div{
+   margin: 10px;
+   padding: 20px;
+}
+.box-card{
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+   transition: 0.3s;
+   width: 50%;
+   flex-grow: 1;
+   border-radius: 20px;
+   background-color: white;
+   padding: 100px;
+}
+.box-card:hover{
+   box-shadow: 0px 0px 20px #f30a8a;
+}
+.logo{
+   width: 100%;
+   margin-bottom: 10px;
+}
+.box-card h3{
+   text-align: center;
+   color: skyblue;
+}
+.container{
+   background-color: skyblue;
+   padding: 100px;
+   text-align: center;
+}
+.flex-container{
+   display: flex;
+   flex-direction: row;
+}
+.package-card{
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+   transition: 0.3s;
+   flex-grow: 1;
+   border-radius: 20px;
+   background-color: white;
+   padding: 20px;
+   margin: 20px;
+}
+.package-card:hover{
+   box-shadow: 0px 0px 20px #f6921d;
+}
+.package-item{
+   text-align: justify;
+   list-style-type: none;
+   display: flex;
+   gap: 1rem;
+}
+.check-icon {
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="limegreen" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>');
+    background-position: center;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+}
+.cross-icon {
+   background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="crimson" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>');
+   background-position: center;
+   background-position-x: -4px;
+   display: block;
+   width: 1rem;
+   height: 1rem;
+}
+
+footer{
+   position: relative;
+   text-align: center;
+}
